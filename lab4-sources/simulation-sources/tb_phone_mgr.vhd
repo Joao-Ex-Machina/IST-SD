@@ -92,7 +92,7 @@ begin
            wait for 50 ns;
            DTO <= '0';
            wait for 100 ns;
-         -- vai para conversação
+         -- vai para conversaÃ§Ã£o
            DTO <= '1';
            wait for 50 ns;
            DTO <= '0';
@@ -102,7 +102,7 @@ begin
            wait for 50 ns;
            ESQ <= '0';
            wait for 100 ns;
-           -- volta a conversação
+           -- volta a conversaÃ§Ã£o
            DTO <= '1';
            wait for 50 ns;
            DTO <= '0';
@@ -112,17 +112,17 @@ begin
            wait for 50 ns;
            DTO <= '0';
            wait for 100 ns;
-           -- vai para marcação
+           -- vai para marcaÃ§Ã£o
            ESQ <= '1';
            wait for 50 ns;
            ESQ <= '0';
            -- vai para chamar, faz timeout e volta para espera
            wait for 750 ns; 
-           -- vai para marcação
+           -- vai para marcaÃ§Ã£o
            ESQ <= '1';
            wait for 50 ns;
            ESQ <= '0';
-           -- vai para chamar, é atendido e vai para conversação
+           -- vai para chamar, Ã© atendido e vai para conversaÃ§Ã£o
            wait for 450 ns; 
            DTO <= '1';
            wait for 50 ns;
