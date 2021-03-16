@@ -70,7 +70,7 @@ end component;
     
 begin
 
-    --  N√O MODIFICAR!!! 
+    --  N√ÉO MODIFICAR!!! 
 	
     ME : maq_estado port map (
         clk => clk, SUP => SUP, ESQ => ESQ, 
@@ -79,7 +79,7 @@ begin
     );
     
 	
-    --  N√O MODIFICAR!!! 
+    --  N√ÉO MODIFICAR!!! 
     
     tempor : temporizador port map (
         clk => clk, SUP => SUP, ESQ => ESQ, 
@@ -87,7 +87,7 @@ begin
 		TEMP => TEMP, TOUT => ttt
     );
     
-    --- Saidas - N√O MODIFICAR 
+    --- Saidas - N√ÉO MODIFICAR 
  
     st2(3) <= sss(15) or sss(14) or sss(13) or sss(12) or
                   sss(11) or sss(10) or sss(9) or sss(8);
